@@ -150,7 +150,7 @@
     "loglevel-plugin-prefix": "^0.8.4",
     "mini-css-extract-plugin": "0.12.0",
     "minimongo": "^6.7.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.31",
     "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "5.0.3",
