@@ -4559,6 +4559,13 @@
   dependencies:
     "@types/react" "^16"
 
+"@types/react-page-visibility@^6.4.1":
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/@types/react-page-visibility/-/react-page-visibility-6.4.1.tgz#21c3bc4a3f310d38d188916cadc55f2bde65f27d"
+  integrity sha512-vNlYAqKhB2SU1HmF9ARFTFZN0NSPzWn8HSjBpFqYuQlJhsb/aSYeIZdygeqfSjAg0PZ70id2IFWHGULJwe59Aw==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-redux@^7.1.20", "@types/react-redux@^7.1.7":
   version "7.1.24"
   resolved "https://registry.npmjs.org/@types/react-redux/-/react-redux-7.1.24.tgz"
@@ -7353,7 +7360,7 @@ buffer-crc32@~0.2.3:
 
 buffer-from@^1.0.0:
   version "1.1.2"
-  resolved "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
   integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-xor@^1.0.3:
@@ -18245,6 +18252,13 @@ react-outside-click-handler@^1.3.0:
     object.values "^1.1.0"
     prop-types "^15.7.2"
 
+react-page-visibility@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/react-page-visibility/-/react-page-visibility-7.0.0.tgz#13dfe604790d061e70b900038bad1ca769a36cbc"
+  integrity sha512-d4Kq/8TtJSr8dQc8EJeAZcSKTrGzC5OPTm6UrMur9BnwP0fgTawI9+Nd+ZGB7vwCfn2yZS0qDF9DR3/QYTGazw==
+  dependencies:
+    prop-types "^15.7.2"
+
 react-perfect-scrollbar@^1.5.8:
   version "1.5.8"
   resolved "https://registry.npmjs.org/react-perfect-scrollbar/-/react-perfect-scrollbar-1.5.8.tgz"
@@ -19844,7 +19858,7 @@ source-map-support@^0.4.15:
 
 source-map-support@^0.5.16, source-map-support@^0.5.6, source-map-support@~0.5.12, source-map-support@~0.5.20:
   version "0.5.21"
-  resolved "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
   integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
@@ -20633,9 +20647,9 @@ terser-webpack-plugin@^5.0.3, terser-webpack-plugin@^5.1.3, terser-webpack-plugi
     terser "^5.7.2"
 
 terser@^4.1.2, terser@^4.6.3, terser@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.npmjs.org/terser/-/terser-4.8.0.tgz"
-  integrity sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
