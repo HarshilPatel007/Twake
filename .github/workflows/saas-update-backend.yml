@@ -28,7 +28,7 @@ jobs:
         run: 'echo "DOCKERTAG=latest" >> $GITHUB_ENV'
       - uses: actions/checkout@v2
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: twaketech/twake-php
           username: ${{ secrets.DOCKER_USERNAME }}
@@ -55,7 +55,7 @@ jobs:
         run: 'echo "DOCKERTAG=latest" >> $GITHUB_ENV'
       - uses: actions/checkout@v2
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: twaketech/twake-node
           username: ${{ secrets.DOCKER_USERNAME }}
